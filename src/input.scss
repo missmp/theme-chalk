@@ -97,7 +97,7 @@
     font-size: 12px;
 
     .el-input__count-inner {
-      background: $--color-white;
+      background: red; //$--color-white;
       display: inline-block;
       padding: 0 5px;
     }
@@ -105,10 +105,11 @@
 
   @include e(inner) {
     -webkit-appearance: none;
-    background-color: $--input-background-color;
+    background-color: #f6f5f3;
     background-image: none;
-    border-radius: $--input-border-radius;
-    border: $--input-border;
+    // border-radius: $--input-border-radius;
+    border: 0px;
+    border-bottom: 2px solid #294E5D;
     box-sizing: border-box;
     color: $--input-font-color;
     display: inline-block;
